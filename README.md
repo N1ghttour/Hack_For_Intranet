@@ -17,6 +17,7 @@ net time /domain判断主域 会有三种情况的产生 拒绝访问为存在�
 
 net user ------> 本机用户列表
 net localgroup administrators ------> 本机管理员[通常含有域用户]
+
 net user /domain ------> 查询域用户
 net group /domain ------> 查询域里面的工作组
 net group "domain admins" /domain ------> 查询域管理员用户组
