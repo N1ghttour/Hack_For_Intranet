@@ -11,6 +11,10 @@ ipconfig /all ------> 查询本机 IP 段，所在域等
 ```
 #net:
 ```
+whoami /all  获取域sid
+net users xxx /domain查看指定用户的详细信息
+net time /domain判断主域 会有三种情况的产生 拒绝访问为存在域 但你使用的不是域用户 找不到则为不存在域
+
 net user ------> 本机用户列表
 net localgroup administrators ------> 本机管理员[通常含有域用户]
 net user /domain ------> 查询域用户
